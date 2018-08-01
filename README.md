@@ -4,13 +4,22 @@
 
 ## 1 &ensp; Labs
 
-### 1.1 &ensp; Editing DOM Styles (`./styles`)
-0.
-1. 
+### 1.1 &ensp; Editing DOM Styles (`./style`)
+0. Make sure you are in the **`~/Desktop/jquery-1`** directory. Open `style/style.html` in Sublime Text (or any other text editor). 
+1. Find out how to use CSS to rotate elements with [this W3schools article](https://www.w3schools.com/cssref/css3_pr_transform.asp).
+2. Open `style.js` in Sublime Text. **Use JQuery** to change the style of the MEET logo:
+    - Finish the function `updateSize`. You should set the width of the the MEET logo to equal `newSize` in pixels.
+    - Finish the function `updateRotation`. You should use the values of the variables `x`, `y`, and `z` in order to set the rotation of the MEET logo.
+3. If you finished, get checked off by a TA or instructor. Nice job!
+
+<img src="images/style.gif">
 
 ### 1.2 &ensp; Editing DOM Content (`./content`)
-0.
+0. Make sure you are in the **`~/Desktop/jquery-1`** directory. Open `content/content.html` in Sublime Text (or any other text editor). 
 1.
+4. If you finished, get checked off by a TA or instructor. Nice job!
+
+<img src="images/counter.gif">
 
 ### 1.3 &ensp; JQuery Events (`./events`)
 0. Make sure you are in the **`~/Desktop/jquery-1`** directory. Open `events/events.html` in Sublime Text (or any other text editor). 
@@ -20,6 +29,7 @@
 2. Open `events.css` in Sublime Text.
     - Notice that `#message` has `position: fixed`. This means that you can move the paragraph in `events.html` around easily.
 3. Edit `events.js` in Sublime Text. **Using jQuery**, add code so that when `moveButton` is clicked, the `message` paragraph moves to a random place on the screen. We have provided helper functions `randomX()` and `randomY()`, which return random X and Y positions on the screen.
+4. If you finished, get checked off by a TA or instructor. Nice job!
 
 <img src="images/events.gif">
 
@@ -34,7 +44,7 @@
     - All letters uppercase.
     - Bold.
 3. Using Sublime Text, edit `classes.css`. **Finish the `.hidden` CSS rule.** Any element with the class of `hidden` should not appear on the screen.
-4. Find out how to use CSS to rotate elements with [this W3schools article](https://www.w3schools.com/cssref/css3_pr_transform.asp).
+4. Find out how to use CSS to rotate elements with [this W3schools article](https://www.w3schools.com/cssref/css3_pr_transform.asp) if you don't know how to do so already.
 5. Using Sublime Text, edit `classes.css`. **Finish the `.rotated` CSS rule**. If elements have the `rotated` class, they should be rotated 180 degrees.
 6. Using Sublime Text, edit `classes.js`.
     - Write code so that when I click `BIG Button`, the `message` paragraph in `classes.html` gets the class `big`.
@@ -44,4 +54,22 @@
 
 <img src="images/classes.gif">
 
-## 2 &ensp; Resources
+## 2 &ensp; Extras
+### 2.1 &ensp; Editing DOM Styles
+1. We created the sliders for you. Use Google to figure out how to use and make HTML Sliders yourself.
+2. Use Google to find the different between `oninput` and `onchange`.
+3. Use Google to figure out how to use jQuery to get the value of an `input` element. Use this to create three sliders that change the background color of your web page.
+
+### 2.2 &ensp; Editing DOM Content
+1. Use Google to find how to add and delete elements to your web page using JQuery.
+2. Implement a simple **to-do list application**. The user should be able to add items to do by clicking an "Add" button, and delete items once they have finished them with a "Finished" button.
+
+### 2.3 &ensp; JQuery Events
+1. Use Google to figure out how the `Math.random` function works.
+2. Once you are confident you understand how the `Math.random` function works, change the color of the `message` to a random color every time the button is pressed.
+
+### 2.4 &ensp; Editing DOM Classes
+
+## 3 &ensp; Resources
+1. CSS Rotate: https://www.w3schools.com/cssref/css3_pr_transform.asp
+2. JavaScript `onchange` event: https://www.w3schools.com/jsref/event_onchange.asp

@@ -4,16 +4,22 @@
         2. All capital letters
         3. BOLD
     */
+    font-size: 72px;
+    font-variant: small-caps;
+    font-weight: bold
+
 }
 
 .hidden {
     /* FINISH ME! Add properties and values to make the text
         1. Not display on the screen.
     */
+    visibility: hidden;
 }
 
 .rotated {
     /* FINISH ME! Add properties and values to make the text
         1. Rotate 180 degrees.
     */
+    transform: rotate(3.1415rad);
 }
